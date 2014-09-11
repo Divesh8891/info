@@ -1,0 +1,133 @@
+body{ background-color: #f79546;}
+ul{list-style-type: none;padding:0;margin: 0;}
+.header{background-color: #6f99d0 !important;height: 50px;}
+.header > span { color: #fff;font-size: 20px;line-height: 50px;text-align: center;display: inline-block;width: 100%}
+.loginLink { font-size: 11px !important;position: absolute;right: 15px;text-align: right !important;}
+#wrapper{position: relative}
+/*------------sidemenu----------------------*/
+.sidemenu{float: left;width: 30%;z-index: 0}
+.menu ul{ margin-left: -2px;width: 44%;}
+.menu ul li{  min-width: 90px;background-color: #000;border: 2px solid #fff;width: 100%;color: #fff;font-weight: bold;height: 30px;line-height: 30px;margin: 24px 0;padding-right: 5px;text-align: right;}
+
+/*--------------container-------------*/
+.add-container{background-color: grey; margin: 30px auto;text-align: center;width: 85%}
+
+.add-container > span {border-right: 1px solid;color: #fff;font-size: 1.5em;line-height: 55px;margin: 0 20px 0 0;padding: 0 10% 0 0;}
+.add-container > a {margin: -12px  0 0 0 !important;}
+.sub-container{}
+.sub-container > span{color: #fff;display: block;font-size: 20px;text-align: center;}
+.sub-items{margin: 0 auto;width:90%; }
+.sub-items li{margin: 20px 0;padding: 0 6px;background-color: #fff;position: relative;}
+.sub-items li>span{font-weight: bold;}
+.sub-items li>input{width: 99%;height: 22px;margin: 6px 0;}
+.addItem { margin: 0 auto 30px;;width: 255px;}
+.additem-container{}
+
+.itemdetail-container{}
+
+
+/*------------template css*/
+.template-container {margin: 0 auto;width: 96%;}
+.template-container>div{  background-color: #ed5f5f;border: 1px solid #fff;margin: 20px auto 0;  min-height: 215px;border: 4px solid #fff; }
+
+.identity{ background-color: #77923b;float: left;    height: 215px;margin: 0;width: 14%; border-right: 4px solid #fff;}
+.identity-text{ color: #fff;font-size: 15px;font-variant: small-caps;margin: 15px 0 0 47%;width: 9px;height: auto;word-wrap: break-word; font-weight: bold;}
+
+
+/*----------voter template--------*/
+.vedate{font-size: 10px !important;margin-top: 50px !important;text-align: right;}
+.vfname{ margin-top: 0 !important;}
+.vname{font-size: 1.5em !important;}
+.vnumber{font-size: 2.3em !important;}
+
+/*----------bank template--------*/
+.bank .items-details li > span {display: inline-block;margin-top: 0px;}
+.bank .bname {font-size: 1.4em;}
+.bank .bacc {font-size: 20px;}
+.bank .pname {font-size: 18px;display: block !important;}
+.bank .bthird-row {width: 45%;text-align: left;}
+.bank .bforth-row {width: 45%;text-align: left;}
+.bank .bfifth-row {width: 45%;text-align: left;}
+.bank .bsixth-row {width: 45%;text-align: left;}
+.bank .bcard {width: 60%;text-align: left}
+.bank .blast-row {text-align: left;width: 90%;}
+.batm-value.blast-row {width: 18%;}
+.bccv {width: 15%;}
+
+.passname {font-size: 1.5em !important;}
+.pfirst-row {display: inline-block !important;text-align: left !important;width: 36%;}
+.psecond-row {display: inline-block !important;text-align: left !important;width: 38%;}
+.pnumber {font-size: 2.3em !important;}
+
+.cpname {font-size: 1.9em !important;}
+.cname {font-size: 1.6em !important;}
+.cnumber {font-size: 1.4em !important;}
+
+.anumber {font-size: 2em !important;}
+.apname {font-size: 1.6em !important;}
+
+.pannumber {font-size: 2.3em !important;}
+.panname {font-size: 1.5em !important;}
+
+.policyholder {font-size: 1.9em !important;}
+.policynum {font-size: 1.5em !important;}
+
+.items-details{  float: left;text-align: center;width: 84%;}
+.items-details li{display: inline-block;width: 100%;height: auto}
+.items-details li > span{   color: #fff;display: block;font-size: .9em;font-weight: bold;margin-top: 8px;}
+
+.wordoverflow{ overflow: hidden;text-overflow: ellipsis;white-space: nowrap;width: 100%;}
+.option-box{margin: 0 auto;width: 95%;}
+
+.login{display:none;background-color: #6f99d0;padding: 13px 22px;position: absolute;width: 70%;z-index: 2}
+.login  li{  background-color: #fff;margin: 12px 0;padding: 0 6px;}
+.panel  li>span{ font-weight: bold}
+.panel  input {height: 22px;margin: 6px 0;width: 99%;}
+.login-close{position: absolute !important;right: -23px;top: -23px;}
+.panel{display:none;}
+
+.overlay{display:none;background-color: #000;z-index: 1;top: 0;left:0;opacity: .5;position: absolute}
+.delete{position: absolute;top:35%;left: 40%}
+.close{position: absolute;top:35%;left: 55%}
+.overlay-text{bottom: 0;color: #fff;font-size: 15px;position: absolute;right: 0; text-align: center;font-weight: bold;}
+
+
+.require{  color: red;float: right;}
+.errMsz {color: red;display: block;font-size: 11px;text-align: right;}
+.forgotP{ color: #000 !important;display: block;text-align: right;}
+
+.ui-datepicker-trigger{position: absolute;right: 3%;top: 30px;}
+@media all and (min-width:320px){
+    .loginLink{bottom: -15px;right: 0px;}
+}
+@media all and (min-width:321px) and (max-width:480px){
+
+    /*    .container {min-height: 400px}*/
+    .login{top:20px !important}
+
+}
+@media all and (min-width:320px) and (max-width:480px){
+    .login{top:90px !important}
+    .sidemenu{width: 100%}
+    .container {margin: 65px 0 0;width: 100%;z-index: 0;}
+    .add-container {width: 95%}
+    .add-container > span {font-size: 20px;}
+    .add-container > a {margin: -4px  0 0 0 !important;}
+}
+@media all and (min-width:481px){
+    .container{float: left;width: 70%;;z-index: 0}
+    .loginLink{top : 2px;}
+}
+@media all and (min-width:768px){
+    .template-container {margin: 0 auto;width: 70%;}
+    .container{float: left;width: 70%;;z-index: 0}
+    .loginLink{top : 2px;}
+}
+@media all and (min-width:1025px){
+    .template-container {margin: 0 auto;width: 60%;}
+    body{background-image: url(../pattern.png);background-color: transparent;}
+    .wrapper{ background-color: #F79546;margin: 0 auto;position: relative !important;width: 60% !important;font-family: monospace;}
+    .menu > ul { width: 33%;}
+    .menu{display:block};
+    .option-box{display:none};
+}

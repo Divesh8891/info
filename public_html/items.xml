@@ -1,0 +1,65 @@
+<xml>
+<item id="Bank Account" >
+    <sub-item type="text" required="true">Person Name</sub-item>
+    <sub-item type="text" required="true">Bank Name</sub-item>
+    <sub-item type="text">Branch Code</sub-item>
+    <sub-item type="text" required="true">Acc. No.</sub-item>
+    <sub-item type="text" required="true">Ifsc Code</sub-item>
+    <sub-item type="text">Micr Code</sub-item>
+    <sub-item type="text" required="true">Customer Id</sub-item>
+    <sub-item type="text" required="true">Atm Card</sub-item>
+    <sub-item type="text"  ftype="date" required="true">Expired On</sub-item>
+    <sub-item type="text" required="true">ccv</sub-item>
+</item>
+<item id="Passport">
+    <sub-item type="text" required="true">Person Name</sub-item>
+    <sub-item type="text" required="true">Passport Number</sub-item>
+    <sub-item type="text"  ftype="date" >Issued Date</sub-item>
+    <sub-item type="text"  ftype="date" >Expired On</sub-item>
+</item>
+<item id="Driving Lience">
+    <sub-item type="text" required="true">Person Name</sub-item>
+    <sub-item type="text" required="true">Lience Number</sub-item>
+    <sub-item type="text"  ftype="date" >Issued Date</sub-item>
+    <sub-item type="text"  ftype="date">Expired On</sub-item>
+</item>
+<item id="Voter Id">
+    <sub-item type="text" required="true">Person Name</sub-item>
+    <sub-item type="text" required="true">Father's Name</sub-item>
+    <sub-item type="text" required="true">Address</sub-item>
+    <sub-item type="text" required="true">Card Number</sub-item>
+</item>
+<item id="Certificate">
+    <sub-item type="text" required="true">Certificate Number</sub-item>
+    <sub-item type="text" required="true">Person Name</sub-item>
+    <sub-item type="text" required="true">Certificate Name</sub-item>
+    <sub-item type="text"  ftype="date">Issued Date</sub-item>
+</item>
+<item id="Aadhaar Card">
+    <sub-item type="text" required="true">Person Name</sub-item>
+    <sub-item type="text" required="true">Card Number</sub-item>
+    <sub-item type="text"  ftype="date" >Date Of Birth</sub-item>
+</item>
+<item id="Pan Card">
+    <sub-item type="text" required="true">Person Name</sub-item>
+    <sub-item type="text" required="true">Father's Name</sub-item>
+    <sub-item type="text"  ftype="date" >Date Of Birth</sub-item>
+    <sub-item type="text" required="true">Card Number</sub-item>
+</item>
+<item id="Policy Number">
+    <sub-item type="text" required="true">Person Name</sub-item>
+    <sub-item type="text" required="true">Policy Number</sub-item>    
+    <sub-item type="text" required="true">Policy Name</sub-item>    
+    <sub-item type="text" required="true">Term</sub-item>    
+    <sub-item type="text" required="true">Total Preminum</sub-item>    
+    <sub-item type="text" required="true">Sum Assured</sub-item>    
+    <sub-item type="text" required="true">Mode(Yearly/Quaterly/Monthly)</sub-item>    
+    <sub-item type="text"  ftype="date" >Issued Date</sub-item>    
+    <sub-item type="text"  ftype="date" >Maturity Date</sub-item>    
+</item>
+<!--<item id="Login Password">
+    <sub-item type="text" >Person Name</sub-item>
+    <sub-item type="text" required="true">Website Name</sub-item>    
+    <sub-item type="text" >Password</sub-item>    
+</item>-->
+</xml>
